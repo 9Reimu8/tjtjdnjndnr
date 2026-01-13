@@ -5,7 +5,7 @@ local WhitelistedPlayers = {
     ["98krgqg"] = true,
     ["dghw111"] = true,
     ["Fetter_hh"] = true,
-    ["Robloxming"] = true,\
+    ["Robloxming"] = true,
     ["Asdwokw"] = true,
 }
 
