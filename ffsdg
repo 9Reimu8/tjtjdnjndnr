@@ -1,54 +1,9 @@
 local StarterGui = game:GetService("StarterGui")
 local Players = game:GetService("Players")
 local WhitelistedPlayers = {
-    ["Mas_Yesa"] = true,
-    ["98krgqg"] = true,
-    ["dghw111"] = true,
-    ["Fetter_hh"] = true,
-    ["Robloxming"] = true,
-    ["Asdwokw"] = true,
-    ["godbigfish"] = true,
-    ["udnbu"] = true,
-    ["lonelybf1"] = true,
-    ["T3skz9er"] = true,
-    ["brrt520"] = true,
-    ["zwqzb123"] = true,
-    ["HaiDai_11"] = true,
-    ["HaiDai_12"] = true,
-    ["Abiogenesisz"] = true,
-    ["LiU8LIU"] = true,
-    ["tieguodundagui"] = true,
-    ["forget00x"] = true,
-    ["Pr0sperous1"] = true,
-    ["yunli_sama"] = true,
-    ["daozanjuntuan"] = true,
-    ["qianqianodd"] = true,
-    ["heikun66"] = true,
-    ["OVERSDHY"] = true,
-    ["123woshierbi"] = true,
-    ["sfycytr"] = true,
-    ["ugvghbg"] = true,
-    ["sansguyo"] = true,
-    ["IllIIlIlIlllIIlIIlIl"] = true,
-    ["potatoessssssssss11"] = true,
-    ["qq1814502847"] = true,
-    ["nhgbhgnihn"] = true,
-    ["Sittinon363"] = true,
-    ["helloearthh1234"] = true,
-    ["mknhghv"] = true,
-    ["MeiQin_0918"] = true,
-    ["MeiQin_0917"] = true,
-    ["MeiQin_0916"] = true,
-    ["sgqgduf6"] = true,
-    ["POIQWE112233"] = true,
-    ["xiaoyu507"] = true,
-    ["ncy526526"] = true,
-    ["asdsadsadf635"] = true,
-    ["godme_math"] = true,
-    ["ji_ge1"] = true,
-    ["Gabrielxxx1112sss"] = true,
-    ["xianyu1245677874"] = true,
-    ["Tcei9"] = true,
+   ["操你妈"] = true,
+   ["操你妈"] = true,
+   ["操你妈"] = true,
 }
 
 local function IsWhitelisted(player)
@@ -61,11 +16,11 @@ local isLocalPlayerWhitelisted = IsWhitelisted(localPlayer)
 
 if isLocalPlayerWhitelisted then
     StarterGui:SetCore("SendNotification", {
-        Title = "白名单认证",
-        Text = "玩家:"..localPlayer.Name.."，检测完毕白名单玩家，稍后会加载脚本",
+        Title = "操你妈认证",
+        Text = "玩家:"..localPlayer.Name.."，检测完毕傻逼玩家，稍后会加载脚本",
         Duration = 7,
     })
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/98krgqg/dnr/refs/heads/main/dnrr"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/吃我牛/你妈死了/refs/heads/main/操你妈"))()
 else
-    localPlayer:Kick("你没有被加入白名单")
+    localPlayer:Kick("你没有被加入福利姬")
 end
